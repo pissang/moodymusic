@@ -1,0 +1,159 @@
+html,body,.container-fluid,.row-fluid,#Songs,#Player{
+  height:100%;
+}
+body{
+  background-image: url(../img/shattered.png);
+}
+.container-fluid{
+  height:100%;
+}
+
+h1{
+  position: absolute;
+  right:20px;
+  top:5px;
+  color:grey;
+}
+
+#MainNav{
+  box-shadow: -3px 0px 10px #A59C9C;
+  background-color: white;
+  min-height: 300px;
+  border-radius: 0px 0px 5px 15px;
+}
+
+#Songs{
+  box-shadow: -3px 0px 10px #A59C9C;
+  margin-left: 0px;
+  background-color: white;
+  border-radius: 0px 0px 10px 10px;
+  min-height: 400px;
+}
+
+#Songs h5 span{
+  color:white;
+  padding:3px;
+  border-radius: 3px;
+}
+
+#Songs h5{
+  margin-left:10px;
+}
+
+#Songs .filter{
+  margin-left: 20px;
+}
+
+#Songs .moods-list li{
+  list-style: none;
+  width:28px;
+  height:15px;
+  border-radius: 3px;
+  display: inline-block;
+  margin:1px 1px;
+  font-size: 10px;
+  color:white;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer
+}
+
+#Songs .drag-tip{
+  color:grey;
+  width:100%;
+  text-align: center;
+  padding:10px 0px;
+}
+
+#SongsList li{
+  border-bottom: 1px solid #DADADA;
+}
+
+#SongsList li a span{
+  color:grey;
+}
+
+/*#SongsList > li:nth-child(odd) > a{
+  background-color: #f9f9f9;
+}
+*/
+#Player{
+  position:relative;
+}
+
+.disc{
+  background-image: url(../img/vinyl.png);
+  width:400px;
+  height:400px;
+  background-size: 400px 400px;
+  border-radius: 200px;
+  box-shadow: 0px 0px 20px #797979;
+  position: absolute;
+
+  left:50%;
+  top:50%;
+  margin-left:-200px;
+  margin-top: -300px;
+}
+.disc img{
+  position: absolute;
+  border-radius: 190px;
+  width:380px;
+  height:380px;
+  left:10px;
+  top:10px;
+  opacity: 0.9;
+}
+.disc .center{
+  position: absolute;
+  background-image: url(../img/vinyl.png);
+  left:130px;
+  top:130px;
+  bottom:130px;
+  right:130px;
+  border-radius:70px;
+  background-size: 400px 400px;
+  background-position: -130px -130px;
+}
+
+.disc .info{
+  position: absolute;
+  width:100%;
+  text-align: center;
+  top: 60px;
+  color:white;
+}
+
+#ImageList{
+  position: fixed;
+  left:0px;
+  right:0px;
+  bottom:0px;
+  height:100px;
+}
+
+#ImageList li{
+  float:left;
+  margin:0px 5px;
+  position:relative;
+  list-style: none;
+}
+
+#ImageList li img{
+  height:100px;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px black;
+}
+#ImageList li.active img{
+  height: 120px;
+  margin-top: -20px;
+  box-shadow: 0px 0px 10px #5A20F0;
+}
+#ImageList li canvas{
+  position: absolute;
+  left:0px;
+  right:0px;
+  bottom:0px;
+  top:0px;
+  opacity: 0.5;
+}

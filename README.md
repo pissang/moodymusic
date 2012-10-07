@@ -62,5 +62,12 @@ MoodMusic是一个根据情绪来分类音乐信息的Web App，并且能够根�
 
 ![4](https://raw.github.com/pissang/moodmusic/master/screenshots/4.png)
 
+## mood modal
+
+参考 [Automatic Mood-Transferring 
+between Color Images](http://140.118.9.222/publications/conference/color_mood_cgaa.pdf)
+
 ## todo
 
+- 歌曲播放
+- 完善歌曲分类

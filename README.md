@@ -1,6 +1,6 @@
-# Mood Music
+# Moody Music
 
-MoodMusic是一个根据情绪来分类音乐信息的Web App，并且能够根据上传的图片来推荐相应的心情的歌曲。
+MoodyMusic是一个根据情绪来分类音乐信息的Web App，并且能够根据上传的图片来推荐相应的心情的歌曲。
 
 整个Web App前端的构建主要基于 [Ember.js](http://emberjs.com/) 和 [Bootstrap](http://twitter.github.com/bootstrap/)，后端使用 [Node.js](http://nodejs.org/) 和 [Mangodb](http://www.mongodb.org/) 来抓取，保存和处理歌曲信息，
 

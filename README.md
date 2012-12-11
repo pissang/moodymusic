@@ -54,13 +54,13 @@ MoodyMusic是一个根据情绪来分类音乐信息的Web App，并且能够根
 目录下的shitou.json是现在已经抓取的少部分歌曲。
 
 ## screeshots
-![1](https://raw.github.com/pissang/moodmusic/master/screenshots/1.png)
+![1](https://raw.github.com/pissang/moodymusic/master/screenshots/1.png)
 
-![2](https://raw.github.com/pissang/moodmusic/master/screenshots/2.png)
+![2](https://raw.github.com/pissang/moodymusic/master/screenshots/2.png)
 
-![3](https://raw.github.com/pissang/moodmusic/master/screenshots/3.png)
+![3](https://raw.github.com/pissang/moodymusic/master/screenshots/3.png)
 
-![4](https://raw.github.com/pissang/moodmusic/master/screenshots/4.png)
+![4](https://raw.github.com/pissang/moodymusic/master/screenshots/4.png)
 
 ## mood modal
 
